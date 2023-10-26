@@ -6,7 +6,7 @@ name: Burn Workflow Minutes
 on:
   push:
     branches:
-      - "branch-001"
+      - "**"
 jobs:
   job01:
     steps:
