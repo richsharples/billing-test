@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - "**"
+
+
 jobs:
   job01:
     steps:
@@ -13,7 +15,7 @@ jobs:
         shell: sh
         run: |
           echo "sleeping for 2700"
-          sleep 2700
+          sleep ${{vars.sleep_seconds}}
           echo "done"
   job02:
     steps:
