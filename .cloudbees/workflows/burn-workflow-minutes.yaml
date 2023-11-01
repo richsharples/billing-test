@@ -23,8 +23,8 @@ jobs:
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: |
-          echo "sleeping for 2700"
-          sleep 2700
+          echo "sleeping for" ${{vars.sleep_seconds}} 
+          sleep ${{vars.sleep_seconds}}
           echo "done"
   job03:
     steps:
@@ -32,8 +32,8 @@ jobs:
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: |
-          echo "sleeping for 2700"
-          sleep 2700
+          echo "sleeping for" ${{vars.sleep_seconds}} 
+          sleep ${{vars.sleep_seconds}}
           echo "done"
   job04:
     steps:
@@ -41,8 +41,8 @@ jobs:
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: |
-          echo "sleeping for 2700"
-          sleep 2700
+          echo "sleeping for" ${{vars.sleep_seconds}} 
+          sleep ${{vars.sleep_seconds}}
           echo "done"
   job05:
     steps:
@@ -50,8 +50,8 @@ jobs:
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: |
-          echo "sleeping for 2700"
-          sleep 2700
+          echo "sleeping for" ${{vars.sleep_seconds}} 
+          sleep ${{vars.sleep_seconds}}
           echo "done"
   job06:
     steps:
@@ -59,8 +59,8 @@ jobs:
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: |
-          echo "sleeping for 2700"
-          sleep 2700
+          echo "sleeping for" ${{vars.sleep_seconds}} 
+          sleep ${{vars.sleep_seconds}}
           echo "done"
   job07:
     steps:
@@ -68,8 +68,8 @@ jobs:
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: |
-          echo "sleeping for 2700"
-          sleep 2700
+          echo "sleeping for" ${{vars.sleep_seconds}} 
+          sleep ${{vars.sleep_seconds}}
           echo "done"
   job08:
     steps:
@@ -77,8 +77,8 @@ jobs:
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: |
-          echo "sleeping for 2700"
-          sleep 2700
+          echo "sleeping for" ${{vars.sleep_seconds}} 
+          sleep ${{vars.sleep_seconds}}
           echo "done"
   job09:
     steps:
@@ -86,8 +86,8 @@ jobs:
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: |
-          echo "sleeping for 2700"
-          sleep 2700
+          echo "sleeping for" ${{vars.sleep_seconds}} 
+          sleep ${{vars.sleep_seconds}}
           echo "done"
   job10:
     steps:
@@ -95,8 +95,8 @@ jobs:
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: |
-          echo "sleeping for 2700"
-          sleep 2700
+          echo "sleeping for" ${{vars.sleep_seconds}} 
+          sleep ${{vars.sleep_seconds}}
           echo "done"
   join-jobs:
     steps:
