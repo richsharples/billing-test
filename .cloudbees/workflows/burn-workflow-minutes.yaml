@@ -5,8 +5,7 @@ on:
   push:
     branches:
       - "**"
-
-
+      
 jobs:
   job01:
     steps:
