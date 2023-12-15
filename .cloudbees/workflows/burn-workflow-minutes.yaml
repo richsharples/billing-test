@@ -104,7 +104,7 @@ jobs:
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: |
-          echo "done"  
+          echo "done!"  
     needs:
       - job01
       - job02
